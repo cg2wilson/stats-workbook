@@ -1,0 +1,194 @@
+var ptx_lunr_search_style = "textbook";
+var ptx_lunr_docs = [
+{
+  "id": "front-colophon",
+  "level": "1",
+  "url": "front-colophon.html",
+  "type": "Colophon",
+  "number": "",
+  "title": "Colophon",
+  "body": "  "
+},
+{
+  "id": "hw1-intro-to-data",
+  "level": "1",
+  "url": "hw1-intro-to-data.html",
+  "type": "Section",
+  "number": "1.1",
+  "title": "Homework 1",
+  "body": " Homework 1   Terminology  The following terminology will be used throughout the course:   Population   A collection of individuals (not necessarily people) that share one or more common characteristics.    In statistics, this is the entire group of individuals for which information is being gathered or studied. Information that describes the entire population is called descriptive statistics    Sample   A subset of the population.    In statistics, it is often neither feasible nor desirable to gather information about the entire population, so information is gathered on part of the population being studied. Inferential statistics describes when information gathered about the sample is used to say something about the population.    Consider the total viewers of a television show. The following are examples of samples of this population: viewers in the United States; viewers between the ages 18 and 35; male-identifying viewers.     Variable   A quantity or quality of the population that varies among individuals.  A quantitative variable is one which can be measured and which produces a numerical value. A qualitative variable or categorical variable is one which produces a description of the population.   Data are the values of variables.     Categorical variables can sometimes have numerical representations, if they are used to categorize individuals in the population.    Parameter   A value found by looking at the entire population.     Statistic   A value found by looking at a sample of the population.      In a recent survey, 1000 Oklahomans were polled on their opinion about a federal law requiring background checks for all gun purchases. 88% would support the law.  In this example, 88% represents a statistic because the 1000 people were chosen from the population of Oklahoma; it's not feasible to ask the entire population, so a subset (1000 people) were asked.      A construction foreman asked his workers about their preferences for lunch. 45% wanted pizza, 20% wanted Mexican, 25% wanted Italian, and 10% wanted salad.  In this example, each percentage represents a parameter, not a statistic. As opposed to , it is possible to get information from all individuals on the worksite; this is why the values represent parameters rather than statistics.      Identify the population, sample, parameter, sample, variable, and data in the situation below.  A restaurant chain wants to determine the amount of average amount of money that University of Oklahoma students spend at its restaurants in each month. To begin answering this question, they ask 100 students their opinions; three students gave responses of $0, $100, and $25, respectively.       The population is \"students at the University of Oklahoma\".    The sample is the 100 students asked their opinions.    The parameter is the monthly average of money spent at the restaurant chain.    The statistic is the monthly average of money spent by the 100 students.    The variable is the amount of money spent by the students at the restaurant group.  Note: The variable is distinct from the parameter, because the parameter is the average amount spent, not the total amount spent.    The data are the dollar amounts given by the three students: $0, $100, and $50.         Types of Variables    Recall that introduced quantitative and qualitative variables (also called categorical variables).  Examples of quantitative variables describing OCCC students are: height, weight, age, GPA, and hours taken  Examples of qualitative variables describing OCCC students are: gender, race, classification (e.g. freshman, sophomore), hair color, phone number, ZIP code, and letter grade in a course.     Even though phone number and ZIP code display numbers, they are not numerical: they are classifying students by an identifier. These numbers are not measurements and cannot be used in further calculations (does the average of a phone number make sense?)    Discrete\/Continuous Variable   A quantitative variable is a discrete variable if it cannot take on any value between the minimum and maximum value of the variable being studied. The number of values that can be taken by the variable is clearly defined or can be counted.  A quantitative variable is a continuous variable if it can take on any value between the minimum and maximum value of the variable being studied.      The following are examples of discrete variables: age, shoe size, number of siblings, number of gas stations in a city.  The following are examples of continuous variables: height, weight, GPA, time, volume, pressure      Is the number of credit hours taken by an OCCC student this semester a discrete or continuous variable?    It is a discrete variable because it's impossible to take anything other than a whole number of hours; taking 13.25 hours is impossible. Since you cannot take on any value between the minimum and maximum (0 and 21 hours), this is a discrete variable.     "
+},
+{
+  "id": "def-population",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#def-population",
+  "type": "Definition",
+  "number": "1.1.1",
+  "title": "Population.",
+  "body": " Population   A collection of individuals (not necessarily people) that share one or more common characteristics.   "
+},
+{
+  "id": "hw1-terminology-4",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#hw1-terminology-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "descriptive statistics "
+},
+{
+  "id": "def-sample",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#def-sample",
+  "type": "Definition",
+  "number": "1.1.2",
+  "title": "Sample.",
+  "body": " Sample   A subset of the population.   "
+},
+{
+  "id": "hw1-terminology-6",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#hw1-terminology-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Inferential statistics "
+},
+{
+  "id": "w1-popsample-1",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#w1-popsample-1",
+  "type": "Example",
+  "number": "1.1.3",
+  "title": "",
+  "body": "  Consider the total viewers of a television show. The following are examples of samples of this population: viewers in the United States; viewers between the ages 18 and 35; male-identifying viewers.   "
+},
+{
+  "id": "def-variable",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#def-variable",
+  "type": "Definition",
+  "number": "1.1.4",
+  "title": "Variable.",
+  "body": " Variable   A quantity or quality of the population that varies among individuals.  A quantitative variable is one which can be measured and which produces a numerical value. A qualitative variable or categorical variable is one which produces a description of the population.   Data are the values of variables.   "
+},
+{
+  "id": "hw1-terminology-9",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#hw1-terminology-9",
+  "type": "Note",
+  "number": "1.1.5",
+  "title": "",
+  "body": " Categorical variables can sometimes have numerical representations, if they are used to categorize individuals in the population.  "
+},
+{
+  "id": "def-parameter",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#def-parameter",
+  "type": "Definition",
+  "number": "1.1.6",
+  "title": "Parameter.",
+  "body": " Parameter   A value found by looking at the entire population.   "
+},
+{
+  "id": "def-statistic",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#def-statistic",
+  "type": "Definition",
+  "number": "1.1.7",
+  "title": "Statistic.",
+  "body": " Statistic   A value found by looking at a sample of the population.   "
+},
+{
+  "id": "w1-parameterstatistic-1",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#w1-parameterstatistic-1",
+  "type": "Example",
+  "number": "1.1.8",
+  "title": "",
+  "body": "  In a recent survey, 1000 Oklahomans were polled on their opinion about a federal law requiring background checks for all gun purchases. 88% would support the law.  In this example, 88% represents a statistic because the 1000 people were chosen from the population of Oklahoma; it's not feasible to ask the entire population, so a subset (1000 people) were asked.   "
+},
+{
+  "id": "w1-parameterstatistic-2",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#w1-parameterstatistic-2",
+  "type": "Example",
+  "number": "1.1.9",
+  "title": "",
+  "body": "  A construction foreman asked his workers about their preferences for lunch. 45% wanted pizza, 20% wanted Mexican, 25% wanted Italian, and 10% wanted salad.  In this example, each percentage represents a parameter, not a statistic. As opposed to , it is possible to get information from all individuals on the worksite; this is why the values represent parameters rather than statistics.   "
+},
+{
+  "id": "hw1-check-1",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#hw1-check-1",
+  "type": "Check Your Understanding",
+  "number": "1.1.10",
+  "title": "",
+  "body": "  Identify the population, sample, parameter, sample, variable, and data in the situation below.  A restaurant chain wants to determine the amount of average amount of money that University of Oklahoma students spend at its restaurants in each month. To begin answering this question, they ask 100 students their opinions; three students gave responses of $0, $100, and $25, respectively.       The population is \"students at the University of Oklahoma\".    The sample is the 100 students asked their opinions.    The parameter is the monthly average of money spent at the restaurant chain.    The statistic is the monthly average of money spent by the 100 students.    The variable is the amount of money spent by the students at the restaurant group.  Note: The variable is distinct from the parameter, because the parameter is the average amount spent, not the total amount spent.    The data are the dollar amounts given by the three students: $0, $100, and $50.      "
+},
+{
+  "id": "hw1-variables-ex1",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#hw1-variables-ex1",
+  "type": "Example",
+  "number": "1.1.11",
+  "title": "",
+  "body": "  Recall that introduced quantitative and qualitative variables (also called categorical variables).  Examples of quantitative variables describing OCCC students are: height, weight, age, GPA, and hours taken  Examples of qualitative variables describing OCCC students are: gender, race, classification (e.g. freshman, sophomore), hair color, phone number, ZIP code, and letter grade in a course.   "
+},
+{
+  "id": "hw1-variables-3",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#hw1-variables-3",
+  "type": "Note",
+  "number": "1.1.12",
+  "title": "",
+  "body": " Even though phone number and ZIP code display numbers, they are not numerical: they are classifying students by an identifier. These numbers are not measurements and cannot be used in further calculations (does the average of a phone number make sense?)  "
+},
+{
+  "id": "def-discrete-cts-variable",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#def-discrete-cts-variable",
+  "type": "Definition",
+  "number": "1.1.13",
+  "title": "Discrete\/Continuous Variable.",
+  "body": " Discrete\/Continuous Variable   A quantitative variable is a discrete variable if it cannot take on any value between the minimum and maximum value of the variable being studied. The number of values that can be taken by the variable is clearly defined or can be counted.  A quantitative variable is a continuous variable if it can take on any value between the minimum and maximum value of the variable being studied.   "
+},
+{
+  "id": "hw1-discrete-cts-1",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#hw1-discrete-cts-1",
+  "type": "Example",
+  "number": "1.1.14",
+  "title": "",
+  "body": "  The following are examples of discrete variables: age, shoe size, number of siblings, number of gas stations in a city.  The following are examples of continuous variables: height, weight, GPA, time, volume, pressure   "
+},
+{
+  "id": "hw1-discrete-cts-2",
+  "level": "2",
+  "url": "hw1-intro-to-data.html#hw1-discrete-cts-2",
+  "type": "Check Your Understanding",
+  "number": "1.1.15",
+  "title": "",
+  "body": "  Is the number of credit hours taken by an OCCC student this semester a discrete or continuous variable?    It is a discrete variable because it's impossible to take anything other than a whole number of hours; taking 13.25 hours is impossible. Since you cannot take on any value between the minimum and maximum (0 and 21 hours), this is a discrete variable.   "
+},
+{
+  "id": "backmatter-2",
+  "level": "1",
+  "url": "backmatter-2.html",
+  "type": "Colophon",
+  "number": "",
+  "title": "Colophon",
+  "body": " This book was authored in PreTeXt .  "
+}
+]
+
+var ptx_lunr_idx = lunr(function () {
+  this.ref('id')
+  this.field('title')
+  this.field('body')
+  this.metadataWhitelist = ['position']
+
+  ptx_lunr_docs.forEach(function (doc) {
+    this.add(doc)
+  }, this)
+})
