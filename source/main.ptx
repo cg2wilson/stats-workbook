@@ -2,21 +2,20 @@
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- we first include a file which contains the docinfo element: -->
-  <xi:include href="./docinfo.ptx" />
+  <xi:include href="./meta/docinfo.ptx" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="stats-workbook">
+    <title>Statistics Workbook</title>
 
     <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./meta/frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="./w1/main.ptx" />
 
 
     <!-- Include backmatter -->
-    <xi:include href="./backmatter.ptx" />
+    <xi:include href="./meta/backmatter.ptx" />
 
   </book>
 </pretext>

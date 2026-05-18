@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="hw1-intro-to-data" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework 1</title>
+
+  <subsection xml:id="hw1-terminology">
+    <title>Terminology</title>
+      <p>
+        The following terminology will be used throughout the course: 
+      </p> 
+      <definition xml:id="def-population">
+        <title>Population</title>
+        <statement>
+          <p>
+            A collection of individuals (not necessarily people) that share one or more common characteristics.
+          </p>
+        </statement>
+      </definition>
+      <p>
+        In statistics, this is the entire group of individuals for which information is being gathered or studied. Information that describes the entire population is called <term>descriptive statistics</term>
+      </p>
+      <definition xml:id="def-sample">
+        <title>Sample</title>
+        <statement>
+          <p>
+            A subset of the population.
+          </p>
+        </statement>
+      </definition>
+      <p>
+        In statistics, it is often neither feasible nor desirable to gather information about the entire population, so information is gathered on part of the population being studied. <term>Inferential statistics</term> describes when information gathered about the sample is used to say something about the population.
+      </p>
+      <example xml:id = "w1-popsample-1">
+        <statement>
+          <p>
+            Consider the total viewers of a television show. The following are examples of samples of this population: viewers in the United States; viewers between the ages 18 and 35; male-identifying viewers.
+          </p>
+        </statement>
+      </example>
+
+      <definition xml:id="def-variable">
+        <title>Variable</title>
+        <statement>
+          <p>
+            A quantity or quality of the population that varies among individuals.    
+          </p>
+          <p>
+            A <term>quantitative variable</term> is one which can be measured and which produces a numerical value. A <term>qualitative variable</term> or <term>categorical variable</term> is one which produces a description of the population.
+          </p>
+          <p>
+            <term>Data</term> are the values of variables.
+          </p>
+        </statement>
+      </definition>
+      <note>
+        <p>
+          Categorical variables can sometimes have numerical representations, if they are used to categorize individuals in the population. 
+        </p>
+      </note>
+      <definition xml:id="def-parameter">
+        <title>Parameter</title>    
+        <statement>
+          <p>
+            A value found by looking at the entire population.
+          </p>
+        </statement>
+      </definition>
+      <definition xml:id="def-statistic">
+        <title>Statistic</title>
+        <statement>
+          <p>
+            A value found by looking at a sample of the population.
+          </p>
+        </statement>
+      </definition>
+      <example xml:id="w1-parameterstatistic-1">
+        <statement>
+          <p>
+            In a recent survey, 1000 Oklahomans were polled on their opinion about a federal law requiring background checks for all gun purchases. 88% would support the law. 
+          </p>
+          <p>
+            In this example, 88% represents a statistic because the 1000 people were chosen from the population of Oklahoma; it's not feasible to ask the entire population, so a subset (1000 people) were asked. 
+          </p>
+        </statement>
+      </example>
+
+      <example xml:id="w1-parameterstatistic-2">
+        <statement>
+          <p>
+            A construction foreman asked his workers about their preferences for lunch. 45% wanted pizza, 20% wanted Mexican, 25% wanted Italian, and 10% wanted salad. 
+          </p>
+          <p>
+            In this example, each percentage represents a parameter, not a statistic. As opposed to <xref ref="w1-parameterstatistic-1"/>, it is possible to get information from all individuals on the worksite; this is why the values represent parameters rather than statistics.
+          </p>
+        </statement>
+      </example>
+      <exercise xml:id="hw1-check-1">
+        <statement>
+          <p>
+            Identify the population, sample, parameter, sample, variable, and data in the situation below.
+          </p>
+          <p>
+            A restaurant chain wants to determine the amount of average amount of money that University of Oklahoma students spend at its restaurants in each month. To begin answering this question, they ask 100 students their opinions; three students gave responses of $0, $100, and $25, respectively.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  The population is "students at the University of Oklahoma".
+                </p>
+              </li>
+              <li>
+                <p>
+                  The sample is the 100 students asked their opinions.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The parameter is the monthly average of money spent at the restaurant chain.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The statistic is the monthly average of money spent by the 100 students.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The variable is the amount of money spent by the students at the restaurant group.
+                </p>
+                <p>
+                  Note: The variable is distinct from the parameter, because the parameter is the <alert>average</alert> amount spent, not the <alert>total</alert> amount spent.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The data are the dollar amounts given by the three students: $0, $100, and $50.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </exercise>
+  </subsection>
+  <subsection xml:id="hw1-variables">
+    <title>Types of Variables</title>
+      <example xml:id="hw1-variables-ex1">
+        <statement>
+          <p>
+            Recall that <xref ref="def-variable"/> introduced <term>quantitative</term> and <term>qualitative</term> variables (also called <term>categorical</term> variables). 
+          </p>
+          <p>
+            Examples of quantitative variables describing OCCC students are: height, weight, age, GPA, and hours taken
+          </p>
+          <p>
+            Examples of qualitative variables describing OCCC students are: gender, race, classification (e.g. freshman, sophomore), hair color, phone number, ZIP code, and letter grade in a course.
+          </p>
+        </statement>
+        
+      </example>
+      <note>
+        <p>
+          Even though phone number and ZIP code display numbers, they are not numerical: they are classifying students by an identifier. These numbers are not measurements and cannot be used in further calculations (does the average of a phone number make sense?)
+        </p>
+      </note>
+      <definition xml:id="def-discrete-cts-variable">
+        <title>Discrete/Continuous Variable</title>
+        <statement>
+          <p>
+            A <alert>quantitative variable</alert> is a <term>discrete variable</term> if it cannot take on any value between the minimum and maximum value of the variable being studied. The number of values that can be taken by the variable is clearly defined or can be counted. 
+          </p>
+          <p>
+            A <alert>quantitative variable</alert> is a <term>continuous variable</term> if it can take on any value between the minimum and maximum value of the variable being studied.
+          </p>
+        </statement>
+      </definition>
+      <example xml:id="hw1-discrete-cts-1">
+        <statement>
+          <p>
+            The following are examples of discrete variables: age, shoe size, number of siblings, number of gas stations in a city. 
+          </p>
+          <p>
+            The following are examples of continuous variables: height, weight, GPA, time, volume, pressure
+          </p>
+        </statement>
+      </example>
+      <exercise xml:id="hw1-discrete-cts-2">
+        <statement>
+          <p>
+            Is the number of credit hours taken by an OCCC student this semester a discrete or continuous variable?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            It is a discrete variable because it's impossible to take anything other than a whole number of hours; taking 13.25 hours is impossible. Since you cannot take on any value between the minimum and maximum (0 and 21 hours), this is a discrete variable.
+          </p>
+        </answer>
+      </exercise>
+
+  </subsection>
+</section>

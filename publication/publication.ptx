@@ -11,11 +11,14 @@
 
 <publication>
   <common>
-    <!-- Level at which are html files generated (chapter/section/etc): -->
-      <!--<chunking level="1" />-->
+    Level at which are html files generated (chapter/section/etc):
+      <!--<chunking level="2" />-->
 
-    <!-- Depth for table of contents.  0 means no TOC -->
-      <!--<tableofcontents level="1" />-->
+
+    
+    <!--Depth for table of contents.  0 means no TOC -->
+<!--      <tableofcontents level="2" />
+-->       
 
     <!-- Visibility of exercise components where they first appear.          -->
     <!-- There are four components (statement/hint/answer/solution) for each -->
@@ -28,8 +31,8 @@
       <!--<exercise-project statement="yes" hint="yes" answer="yes" solution="yes" />-->
 
     <!-- Style of fill-in-the-blanks: -->
-      <!--<fillin textstyle="underline" mathstyle="shade" />-->
-
+<!--      <fillin textstyle="underline" mathstyle="shade" />
+-->
     <!-- You can set a watermark: -->
       <!-- <watermark scale="0.5">DRAFT</watermark> -->
 
@@ -71,7 +74,7 @@
     <!-- The next elements say how the levels deep to break up the    -->
     <!-- numbering of the respective elements. Can't be more than the -->
     <!-- @level on divisions above.                                   -->
-      <!--<blocks level="2" />-->
+      <blocks level="2" />
       <!--<projects level="2" />-->
       <!--<equations level="2" />-->
       <!--<footnotes level="2" />-->
@@ -121,11 +124,11 @@
 
     <!-- Whether to knowl a particular elements is set here    -->
     <!-- Lots of elements have this possibility; see the guide -->
-      <!--<knowl
+      <knowl
         theorem="no"
         proof="yes"
         definition="no"
-        example="yes"
+        example="no"
         example-solution="yes"
         project="no"
         task="no"
@@ -140,7 +143,7 @@
         exercise-divisional="no"
         exercise-worksheet="no"
         exercise-readingquestion="no"
-      />-->
+      />
 
     <!-- Specify the theme for the html by giving names to     -->
     <!-- override defaults.  Ex:<css theme="denver"/>          -->
