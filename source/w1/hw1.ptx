@@ -198,6 +198,325 @@
           </p>
         </answer>
       </exercise>
+      <assemblage xml:id="hw1-callout-1">
+        <title>Distinguishing Between Continuous and Discrete Variables</title>
+        <p>
+          Continuous variables are types of variables that we can get more and more precise measurements from. The precision is only limited by the device we are using to measure it. For example, someone's weight could be 182.126 pounds and that number makes perfect sense. And if we had a better scale, we could get an even more precise measurement.  For a discrete variable, the variable can only take on a certain number of values- not all values would make sense- like shoe size. 12.5 would make sense but a value like 12.456 would not. There is only a discrete (limited/countable) number of values that a discrete variable could have. Things that we are measuring scientifically tend to be continuous variables because the precision of measurement is only determined by the instrument doing the measuring.  
+        </p>
+      </assemblage>
+      <definition xml:id="def-nominal-ordinal">
+        <title>Nominal/Ordinal Variable</title>
+        <statement>
+          <p>
+            A <alert>qualitative variable</alert> is a <term>nominal variable</term> if there is no natural ordering of the variables.
+          </p>
+          <p>
+            A <alert>qualitative variable</alert> is an <term>ordinal variable</term> if there is a natural ordering of the variables.
+          </p>
+        </statement>
+      </definition>
+      <example xml:id="hw1-nominal-ordinal-1">
+        <statement>
+          <p>
+            Examples of nominal variables include: gender, race, hair color, ZIP code
+          </p>
+          <p>
+            Examples of ordinal variables include: year classification (e.g. freshman, sophomore), military rank, letter grade in a course.
+          </p>
+        </statement>
+      </example>
+      <exercise xml:id="hw1-nominal-ordinal-2">
+        <statement>
+          <p>
+            Determine whether the given variable is nominal or ordinal:
+          </p>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  Brand of laptop 
+                </p>
+              </li>
+              <li>
+                <p>
+                  Drink size at a fast food restaurant
+                </p>
+              </li>
+              <li>
+                <p>
+                  Size (in page count) of statistics textbooks
+                </p>
+              </li>
+              <li>
+                <p>
+                  Statistics textbooks used
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  Nominal, because there is no natural ordering to the variables (is <c>Dell</c> larger or smaller than <c>Apple</c>?)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ordinal, because there is a natural ordering (small is smaller than medium, which is smaller than large)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ordinal, because there is a natural ordering (books with fewer page numbers are smaller than those with larger page numbers)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Nominal, because there is no natural ordering to the variables (<c>Diez</c> is not larger or smaller than <c>Illowsky</c> or <c>Triola</c>)
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </exercise>
+  </subsection>
+  <subsection xml:id="hw1-sampling">
+    <title>Sampling Methods</title>
+    <p>
+      Most populations we study or work with within Statistics are of enormous size: think of the population of all U.S. households or the population of all eligible voters in the U.S. These populations contains tens of millions of individual data points, so it is not feasible (in terms of time, cost, etc.) to study the whole population directly. For populations where it is not desirable to study each individual from a population, we choose a representative sample. 
+    </p>
 
+    <assemblage xml:id="hw1-sampling-validmethods-defs">
+      <title>List of Valid Sampling Methods</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <term>Simple Random Sampling</term>: We randomly choose the desired number of individuals out of the entire population of individuals. This method is valid because it allows all individuals an equal chance to be picked as part of a sample.
+            </p>
+            <p>
+              Simple random sampling is the most basic and common method for choosing a valid statistical sample out of a population
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Stratified Random Sampling</term>: This is a more advanced version of random sampling. We still choose a random sample; however, we also stratify it to closely match with the demographics of the population we choose our sample from. All medical and healthcare-related studies are conducted using this sampling method.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Cluster Sampling</term>: Cluster sampling occurs when there are 'natural' groupings evident in a population. It is often used in marketing research. In this technique, the total population is divided into these groups (called clusters) and a sample of the groups is selected.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Systematic Sampling</term>: Sample members from a larger population are selected according to a random starting point and a fixed, periodic interval. This is often used when doing quality control for a particular product.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </assemblage>
+    <example xml:id="hw1-sampling-validmethods-1">
+      <statement>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <alert>Simple Random Sampling</alert>: Drawing names from a hat is an example of simple random sampling - everyone from the population is in the hat and has an equal opportunity to be chosen for the sample.
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>Stratified Random Sampling</alert>: Suppose we want to poll a sample of eligible voters to find out how they plan to vote in an upcoming election. In this population, 44% of voters are registered as Democrat, 42% as Republican, and 12% as independent. The stratified random sample we use for this poll should also reflect these percentages, so around 42% of all individuals should be chosen from the pool of all eligible Republican voters, 44% from all Democratic voters, and 12% from all independent voters.
+              </p>
+            </li>        
+            <li>
+              <p>
+                <alert>Cluster Sampling</alert>: Suppose that Major League Baseball decides to do random drug testing during the season. They can do a cluster sampling by considering each division as one large cluster, and randomly choosing one or more divisions. Suppose the division 'AL East' is chosen; this means that all members of the AL East (Yankees, Orioles, Red Sox, Rays) would be randomly tested.
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>Systematic Sampling</alert>: A soda pop company wants to make sure they have a consistent product so they systematically take every 100th can off the assembly line to get tested for consistency.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+    <exercise xml:id="hw1-sampling-validmethods-2">
+      <statement>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                Suppose a population is 60% male and 40% female. If we want the final sample to match the percentages in the population, are we using simple random, stratified random, cluster, or systematic sampling?
+              </p>
+            </li>
+            <li>
+              <p>
+                How many individuals should be chosen from the male population?
+              </p>
+            </li>
+            <li>
+              <p>
+                How many individuals should be chosen from the female population?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                Stratified random sampling.
+              </p>
+            </li>
+            <li>
+              <p>
+                6 males, because 6/10 = 60%. The percentage of males in the sample should match the percentage of males in the population in stratified random sampling.
+              </p>
+            </li>
+            <li>
+              <p>
+                4 females, because 4/10 = 40%. The percentage of females in the sample should match the percentage of females in the population in stratified random sampling.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </exercise>
+    <exercise xml:id="hw1-sampling-validmethods-3">
+      <statement>
+        <p>
+          It has been speculated that the apples from an orchard of apple trees in Maine has more health benefits than apples found elsewhere.  A group of scientists decide to conduct a study on the apples in the orchard to test the validity of the speculation.
+        </p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                What is the population in this study?
+              </p>
+            </li>
+            <li>
+              <p>
+                Scientists don't want to harvest all the apples in the orchard so they choose to use a sample of 100 apples instead.  Determine the type of sampling that the scientist do in each of the following scenarios.    
+              </p>
+            </li>
+            <li>
+              <p>
+                Scientists choose 5 apples from every three trees in the orchard until they have gotten all 100 apples for their sample.
+              </p>
+            </li>
+            <li>
+              <p>
+                Scientists randomly pick 30 green apples, 50 red apples, and 20 yellow apples because 30% of the apples in the orchard are believed to be green apples, 50% of the apples in orchard have red apples, and 20% of the trees have yellow apples.
+              </p>
+            </li>
+            <li>
+              <p>
+                Scientists decide to pick all 100 apples from 3 trees in the orchard- a tree having red apples, a tree having yellow apples, and a tree having green apples.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                All apples in the orchard.
+              </p>
+            </li>
+            <li>
+              <p>
+                Simple random sample.
+              </p>
+            </li>
+            <li>
+              <p>
+                Systematic sample.
+              </p>
+            </li>
+            <li>
+              <p>
+                Stratified random sample.
+              </p>
+            </li>
+            <li>
+              <p>
+                Cluster sample.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </exercise>
+    <assemblage xml:id="hw1-sampling-invalidmethods-defs">
+      <title>List of Invalid Sampling Methods</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <term>Voluntary-response Sampling</term>: This occurs when the members of the sample choose to be part of the sample.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Non-response Sampling</term>: This occurs when a sample is not large enough to represent a population.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Sample of Convenience</term>: This occurs when the sample is chosen from convenient data points to the researcher.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </assemblage>
+    <example xml:id="hw1-sampling-invalidmethods-1">
+      <statement>
+        <p>
+          A radio talk show in Oklahoma City asks people to chime in on who they think the best point guard in the NBA is.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <alert>Voluntary-response Sampling</alert>:                 
+                  The people that call in will feel very passionate about whom they feel is the best and the fact they are listening to a particular radio station might indicate that they will all have similar views.  It is very unlikely that this small sample calling into the radio station will feel the same way as the general population unless everyone in Oklahoma City listens to this radio station and they are all passionate about basketball. 
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>Non-reponse Sampling</alert>: If 5 people call in to the station and all say that Shai Gilgeous-Alexander is the best point guard, this is not as convincing as if 500 people called in and declared Shai the best point guard. 
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>Sample of Convenience</alert>: If the radio station claims that Shai Gilgeous-Alexander is the best point guard in the NBA based on the views of its callers, this is a sample of convenience because the sample (conveniently drawn from nearby listeners) is not representative of the entire population of NBA fans.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+    <example xml:id="hw1-sampling-invalidmethods-2">
+      <statement>
+        <p>
+          Sometimes a sample of convenience is ok.
+        </p>
+        <p>
+          A farmer wants to sell his newly harvested apples to a grocery store.  In the back of his truck the farmer has his apples in numerous crates.  The grocery store manager only examines the apples in the top of each crate (whether than checking the bottom) when deciding whether or not to buy the apples.  A sample of convenience is ok when it can be used to represent the entire population.
+        </p>
+      </statement>
+    </example>
+    
   </subsection>
 </section>
