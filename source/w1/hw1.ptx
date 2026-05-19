@@ -517,6 +517,220 @@
         </p>
       </statement>
     </example>
+  </subsection>
+  <subsection xml:id="hw1-studies-experiments">
+    <title>Observational Studies and Experiments</title>
     
+    <definition xml:id="def-studies">
+      <title>Statistical Studies</title>
+      <statement>
+        <p>
+          A <term>statistical study</term> is the way that statisticians and researchers gather information about the individuals from a population.
+        </p>
+        <p>
+          Studies can either take the design of an <term>observational study</term> or an <term>experiment</term> depending on the role of the researcher, the person conducting the study.
+        </p>
+      </statement>
+    </definition>
+    <assemblage xml:id="hw1-studies-observational">
+      <title>Observational Study</title>
+      <p>
+        In an <term>observational study</term>, the researcher only gathers information about a population through observation.
+      </p>
+      <p>
+        If the purpose of the observational study is to compare groups within the population, the researcher will not assign individuals from the population into the groups.  The individuals either naturally fall within the groups or they have chosen to be in a group for themselves.
+      </p>
+      <p>
+        In an observational study the researcher does not manipulate or influence the behaviors of the population in any way.
+      </p>
+    </assemblage>
+    <example xml:id="hw1-studies-observational-1">
+      <statement>
+        <p>
+          Observational studies have linked smoking to poorer health outcomes. Researchers would follow smokers and non-smokers and record the health differences between the two groups.
+        </p>
+        <p>
+          This is an observational study because at no point did the researcher influence the behaviors of the individuals that they were observing.
+        </p>
+        <p>
+          Because of this lack of control for behaviors such as diet and exercise, researchers could only conclude that it was very likely that smoking had an adverse effect on one's health.  Also the researchers could not say that smoking was the direct cause of bad health.
+        </p>
+      </statement>
+    </example>
+    <note>
+      <p>
+        Observational studies can usually show <alert>correlation</alert> (variables are related in some way) but not <alert>causation</alert>, where one variable is the direct cause of another (e.g. smoking is the direct cause of bad health).
+      </p>
+    </note>
+    <assemblage xml:id="hw1-studies-experiments-experiments">
+      <title>Experiments</title>
+      <p>
+        In an <term>experiment</term>, the researcher manipulates the population in some manner.
+      </p>
+      <p>
+        One way that the researcher does this is by assigning individuals from the population into groups: <term>experiment</term>, which receives the experimental treatment, and <term>control</term>, which does not receive the experimental treatment.
+      </p>
+      <p>
+        Individuals do not choose for themselves which group they will be a part of.  The researcher does this so that they can determine if administrating a treatment to one of the groups will cause a response that does not happen in the group that did not receive the treatment.
+      </p>    
+      <p>
+        Unlike an observational study, the researcher in an experiment can influence the behaviors of subjects to control for lurking variables.
+      </p>
+    </assemblage>
+    <example xml:id="hw1-studies-experiments-1">
+      <statement>
+        <p>
+          Consider a hypothetical experiment designed to determine whether or not smoking <alert>causes</alert> bad health.
+        </p>
+        <p>
+          For the experiment group, researchers randomly choose a sample of people from the population and give them a treatment. In this experiment, the individuals or subjects in this group would be asked to smoke (which would be highly unethical).
+        </p>
+        <p>
+          For the control group, researchers would randomly choose a sample of people from the population that will be told not to smoke.
+        </p>
+        <p>
+          Researchers would then try to control for lurking variables by controlling the behaviors of the two groups. For example, they might give both groups the same diet, exercise plan, require the same amount of sleep, etc. 
+        </p>
+        <p>
+          In some experiments, researchers would also control for the <term>placebo effect</term>
+        </p>
+      </statement>
+    </example>
+    <definition xml:id="def-placeboeffect">
+      <title>Placebo Effect</title>
+      <statement>
+        <p>
+          The <term>placebo effect</term> occurs when people think they are receiving a treatment when in actuality they are not. The mere thought of receiving the treatment in some individuals is enough to cause an effect.
+        </p>
+      </statement>
+    </definition>
+    <assemblage xml:id="hw1-studies-experiment-terminology">
+      <title>Terminology Associated with an Experiment</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <term>Sample</term>: If not specified it always means a simple random sample of individuals chosen from the population.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Subject</term>: An individual chosen at random from a population for an experiment.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Explanatory Variable</term>: A quantity used to measure the outcome of an experiment.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Response Variable</term>: A quantity used to measure the outcome of an experiment.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Treatment</term>: A combination of one or more explanatory factors in an experiment.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Double-Blind Experiment</term>: An experiment where neither the researcher nor the subjects know which group (control or experimental) they are in.
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Lurking Variables</term>: Variables that have an influence on the response variable that are not accounted for in the study.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </assemblage>
+    <exercise xml:id="hw1-studies-experiments-2">
+      <statement>
+        <p>
+          In <xref ref="hw1-studies-experiments-1"/>, determine the explanatory variable, response variable, and treatment for the experiment.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The explanatory variable is 'whether or not the subject smokes', the response variable is 'the various health outcomes', and the treatment is 'giving cigarettes to the individuals in the experimental group'.
+        </p>
+      </answer>
+    </exercise>
+    <exercise xml:id="hw1-studies-experiments-3">
+      <statement>
+        <p>
+          A fitness instructor wants to determine the effect that fitness classes have on body fat composition. Determine which is an observational study and which is a randomized experiment.
+        </p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                The fitness instructor measures the body fat composition of the participants of the 4 different classes that have already begun: yoga, Zumba, pilates, and Tae Bo. She later takes the body fat composition of each participant the last week of class to see which class made the largest improvement.
+              </p>
+            </li>
+            <li>
+              <p>
+                She measures the body fat composition of 100 fitness class participants and then she randomly assigns the participants to yoga, Zumba, pilates, and Tae Bo. She later takes the body fat composition of each participant the last week of class to see which class made the largest improvement.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                This is an observational study because the classes have already started. This implies that the participants chose for themselves which class(es) they would be in. The fitness instructor is not assigning treatment to the participants, which is essential for a randomized experiments.
+              </p>
+            </li>
+            <li>
+              <p>
+                This is a randomized experiment because the fitness instructor is randomly assigning the treatment to participants.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </exercise>
+    <exercise xml:id="hw1-studies-experiments-4">
+      <statement>
+        <p>
+          A soda pop company wants to measure the satisfaction level of two of its products, brand X and brand Y to determine which to promote. Which of the following describes an observational study and which describes an experiment?
+        </p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                The company decides to poll 50 people that had already tried brand X and and 50 people that had already tried brand Y about their satisfaction level.
+              </p>
+            </li>
+            <li>
+              <p>
+                The company randomly chooses 100 people, 50 of which are assigned to brand X, and 50 to brand Y. After trying the brands, those chosen for the study were asked their satisfaction level.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                This is an observational study because those polled had already tried brand X and brand Y on their own.
+              </p>
+            </li>
+            <li>
+              <p>
+                This is a randomized experiment because the company assigns people to try either brand X or brand Y.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </exercise>
   </subsection>
 </section>
